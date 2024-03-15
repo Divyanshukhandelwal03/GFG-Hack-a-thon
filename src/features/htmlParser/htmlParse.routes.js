@@ -17,6 +17,12 @@ HtmlParseRoute.get("/htmlCode", (req, res) => {
 HtmlParseRoute.post("/htmlCode", (req, res) => {
   htmlParseController.accessHtmlCode(req, res);
 });
+HtmlParseRoute.get("/queryData/" , (req,res)=>{
+    htmlParseController.displayQueryForm(req,res);
+});
+HtmlParseRoute.post("/queryData/" , (req,res)=>{
+  htmlParseController.developQueryCode_t(req,res);
+});
 
 HtmlParseRoute.get("/compareCodeQuery/:id", (req, res) => {
   htmlParseController.checkCodeWithQuery(req, res);

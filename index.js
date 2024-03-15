@@ -14,7 +14,6 @@ const app = express();
 app.use(express.static("public"));
 ///////
 import HtmlParseRoute from "./src/features/htmlParser/htmlParse.routes.js";
-import {parseStrToObj} from "./string_to_obj/conversion.js"
 
 app.use(bodyParser.json({ type: "application/*json" }));
 var urlencodedParser = bodyParser.urlencoded({ extended: true });
@@ -40,20 +39,6 @@ app.set("view engine", "ejs");
 app.use("/api/data/", HtmlParseRoute);
 
 app.use("/api-docs", swagger.serve, swagger.setup(apiDocs));
-app.get("/api/queryData/", (req, res) => {
-  res.render("input_screen");
-});
-app.post("/api/queryData/",(req,res)=>{
-  // console.log(req.body.query_text);
-  console.log(req.body.query_in_string);
-  console.log("difference");
-  let query_text = req.body.query_text;
-  let query_string = req.body.query_in_string;
-  let data = parseStrToObj(query_string);
-  console.log(data);
-  // console.log(data[0].child);
-  res.send('consoled query Data');
-});
 
 app.use((req, res) => {
   res.send("API not found.");

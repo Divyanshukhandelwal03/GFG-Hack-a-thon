@@ -2,6 +2,7 @@ import { parse } from "node-html-parser";
 import { checking } from "./checking.js";
 import *as fs from "fs";
 // jsdom
+import { parseStrToObj } from "../../../string_to_obj/conversion.js";
 import { JSDOM } from "jsdom";
 //repository
 import htmlParserGFG from "./htmlParse.repository.js";
@@ -21,6 +22,9 @@ export default class HtmlParseController {
   //     return res.status(500).send("something went wrong");
   //   }
   // }
+  async displayQueryForm(req,res){
+    return res.render("input_screen");
+  }
   async displayForm(req, res) {
     return res.render("form_input");
   }
@@ -44,6 +48,20 @@ export default class HtmlParseController {
   //   // );
   //   res.send("Success");
   // }
+  async developQueryCode_t(req,res){
+  // console.log("difference");
+  let query_text = req.body.query_text;
+  let query_string = req.body.query_in_string;
+  let data = parseStrToObj(query_string);
+  try{
+    const output = await this.htmlParserGfg.add(data);
+    res.status(201).send(output);
+   }catch(err)
+   {
+     console.log('data recieved in query can not be added in the database');
+     return res.status(500).send('something went wrong');
+   }
+  }
   async developQueryCode(req,res){
     console.log(req.body.data);
      try{

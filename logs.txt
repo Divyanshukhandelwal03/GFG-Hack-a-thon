@@ -685,3 +685,14 @@
 {"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
 {"level":"info","message":"/api/queryData/-{\"query_text\":\"\",\"query_in_string\":\"$div&.non-called&#hello%p&#child_of_div%h1\\r\\n$section&#welcome-section&.helloi\"}","service":"request-logging"}
 {"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryInput/-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/queryData/-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{\"query_text\":\"hi\",\"query_in_string\":\"$div&.non-called&#hello%p&#child_of_div%h1$section&#welcome-section&.helloi\"}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryInput/-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
