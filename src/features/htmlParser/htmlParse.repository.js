@@ -9,7 +9,7 @@ class htmlParserGFG {
     try {
       const db = getDB();
       const collection = db.collection(this.collection);
-      await collection.insertOne({ data });
+      await collection.insertOne({ data:data.data,userView:data.userView });
       return { message: "success" };
     } catch (err) {
       console.log(err);

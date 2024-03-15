@@ -1,12 +1,4 @@
-// function makeObject(className , elementName , idName , childObj)
-// {
-//     let data ={};
-//     data.element = elementName;
-//     data.class = className;
-//     data.id = idName;
-//     data.childObj = childObj;
-//     return data;
-// }
+
 function convert(str){
     let t="";
     let parentObj = {};
@@ -79,7 +71,10 @@ function convert(str){
     parentObj.element=elementName;
     parentObj.class=className;
     parentObj.id=idName;
+    if(Object.keys(childObj).length)
+    {
     parentObj.child = childObj;
+    }
     return parentObj;
 }
 export function parseStrToObj(str){
@@ -91,7 +86,6 @@ export function parseStrToObj(str){
         if(str[i]=='$')
         {
             let newObj = convert(t);
-            // console.log(newObj);
             data.push(newObj);
             t = ""; 
         }

@@ -1,15 +1,12 @@
-
-// pars[0].childNodes[i].nodeType==1
 export function checking(data,parsed_Data){
   if((!data.element||data.element=='')&&(!data.class||data.class=='')&&(!data.id||data.id==''))
   {
-    console.log('1');
+    // console.log('1');
     return 1;
   }
   else if((!data.element||data.element=='')&&(!data.class||data.class==''))
   {
-    console.log('2');
-    // let num = parsed_Data.getElementById(data.id);
+    // console.log('2');
     if(parsed_Data.id == data.id)
     {
       if(!data.child)
@@ -32,8 +29,7 @@ export function checking(data,parsed_Data){
   }
   else if((!data.element||data.element=='')&&(!data.id||data.id==''))
   {
-    console.log('3');
-    // let num = parsed_Data.getElementsByClassName(data.class);
+    // console.log('3');
     let num = parsed_Data.classList._set;
     let output = 0 ;
     for(let value of num)
@@ -66,7 +62,7 @@ export function checking(data,parsed_Data){
   }
   else if((!data.class||data.class=='')&&(!data.id||data.id==''))
   {
-    console.log('4');
+    // console.log('4');
       if(parsed_Data.rawTagName == data.element)
       {
          if(data.child)
@@ -92,10 +88,7 @@ export function checking(data,parsed_Data){
   }
   else if(!data.class||data.class=='')
   {
-    console.log('5');
-    // console.log(parsed_Data);
-  
-      // console.log('hum');
+    // console.log('5');
       if(parsed_Data.rawTagName==data.element && parsed_Data.id==data.id)
       {
          if(!data.child)
@@ -104,7 +97,6 @@ export function checking(data,parsed_Data){
          }
          for(let j = 0 ; j<parsed_Data.childNodes.length ; j++)
          {
-          // console.log('hello');
           if(parsed_Data.childNodes[j].nodeType==1)
           {
             let output = checking(data.child , parsed_Data.childNodes[j]);
@@ -119,7 +111,7 @@ export function checking(data,parsed_Data){
   }
   else if(!data.id||data.id=='')
   {
-    console.log('6');
+    // console.log('6');
       if(parsed_Data.rawTagName == data.element)
       {
         let num = parsed_Data.classList._set;
@@ -156,7 +148,7 @@ export function checking(data,parsed_Data){
   }
   else if(!data.element||data.element=='')
   {
-    console.log('7');
+    // console.log('7');
     let num = parsed_Data.classList._set;
     let output = 0 ; 
     for(let value of num)
@@ -192,14 +184,12 @@ export function checking(data,parsed_Data){
     return 0;
   }
   else{
-    console.log('8');
+    // console.log('8');
     let num = parsed_Data.getElementsByTagName(data.element);
     if(num == null||num.length == 0)
     {
-      // console.log('hi');
       return 0;
     }
-    // console.log(num[0].classList._set);
     for(let i = 0 ; i<num.length ; i++)
     {
          if(num[i].id!=null&&num[i].id!=''&&num[i].id == data.id)

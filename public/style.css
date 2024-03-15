@@ -1,36 +1,4 @@
-/* form>div{
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items:start;
-}
-form>div>div{
-    display: flex;
-    align-items: center;
-    flex: auto;
-}
-.addChild{
-    background-color:bisque;
-    border-radius: 50%;
-    text-align: center;
-    //padding: 10px; 
-    margin: 2%;
-    font-size: 20px;
-}
-.query{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    width: 100%;
-    align-items: center;
-}
-#query1{
 
-    display: flex;
-  flex-direction:column;
-  align-items: end;
-} */
 form{
     height: 100vh;
     width: 100vw;
