@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <link rel="stylesheet" href="\style.css" />
+  </head>
+  <body>
+    <!-- <main>
+      <form id="form" action="/api/queryData/" method="post">
+        <div>
+        <div style="height: 70vh">
+          <label for="Assignment"></label>
+          <textarea
+            name="userView"
+            id="Assignment"
+            cols="30"
+            rows="10"
+            style="width: 100%; height: 100%"
+          ></textarea>
+        </div>
+        <div id="query1">
+          <div class="query">
+            <input
+              type="text"
+              name="query1"
+              id=""
+              style="width: 100%; height: 30px"
+            />
+            <button onclick="addChild('1')" id="1" class="addChild">+</button>
+          </div>
+          <button onclick="addQuery()" id="addNewQuery">Add query</button>
+        </div>
+      </div>
+        <button type="submit">Add All Queries</button>
+      </form>
+    </main> -->
+    <!-- <button>Add query</button> -->
+
+    <!-- <script src="leader-line.min.js"></script>
+    <script>
+      new LeaderLine(
+        document.getElementById("1"),
+        document.getElementById("2")
+      );
+    </script> -->
+    <!-- <script src="\script.js"></script> -->
+       <form action="/api/queryData/" method="post">
+         <div class="common-form">
+          <!-- <input type="text" name="query_text" placeholder="Enter queries in text form here" style="width: 100%; height: 100%;"> -->
+          <textarea name="query_text" placeholder="Enter queries in text form here" style="width: 100%; height: 100%;"></textarea>
+         </div>
+         <div class="common-form">
+          <!-- <input type="text" name="query_in_string" placeholder="Enter queries in string form here" style="width: 100%; height: 100%;"> -->
+          <textarea name="query_in_string" placeholder="Enter queries in string form here" style="width: 100%; height: 100%;"></textarea>
+         </div>
+         <button type="submit">Submit the Queries</button>
+       </form>
+  </body>
+</html>

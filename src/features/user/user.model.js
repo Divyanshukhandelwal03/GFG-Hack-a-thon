@@ -1,9 +1,9 @@
 export default class UserModel {
-  constructor(name, password, about, employeeCode, role) {
+  constructor(name, password, about, email, role) {
     (this.name = name),
       (this.password = password),
       (this.about = about),
-      (this.employeeCode = employeeCode),
+      (this.email = email),
       (this.role = role);
   }
 }

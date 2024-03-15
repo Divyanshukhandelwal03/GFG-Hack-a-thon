@@ -11,6 +11,6 @@ export const connectToMongoDB = () => {
     });
 };
 export const getDB = () => {
-//   console.log(process.env.DB_URL);
+  // console.log(process.env.DB_URL);
   return client.db();
 };

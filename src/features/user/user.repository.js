@@ -16,12 +16,11 @@ export default class userRepository {
     }
   }
 
-  async findByEmployeeCode(employeeCode) {
+  async findByEmail(email) {
     try {
       const db = getDB();
       const collection = db.collection(this.collection);
-      //   console.log(await collection.findOne({ employeeCode }));
-      return await collection.findOne({ employeeCode });
+      return await collection.findOne({ email });
     } catch (e) {
       throw new ApplicationError("something went wrong", 500);
     }

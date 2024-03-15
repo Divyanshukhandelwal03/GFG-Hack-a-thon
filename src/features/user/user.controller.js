@@ -9,26 +9,26 @@ export default class UserController {
   async signUp(req, res) {
     // console.log(req.body);
 
-    const result = await this.userRepo.findByEmployeeCode(
-      req.body.employeeCode
+    const result = await this.userRepo.findByEmail(
+      req.body.email
     );
     if (result != null) {
-      return res.status(404).send("Employee Already Exist ");
+      return res.status(404).send("User Already Exist ");
     } else {
-      const { name, password, about, employeeCode, role } = req.body;
+      const { name, password, about, email, role } = req.body;
       const hashedPassword = await bcrypt.hash(password, 12);
       const user = new UserModel(
         name,
         hashedPassword,
         about,
-        employeeCode,
+        email,
         role
       );
       await this.userRepo.signUp(user);
       const token = jwt.sign(
         {
           userID: user._id,
-          employeeCode: user.employeeCode,
+          email: user.email,
         },
         process.env.JWT_SECRET_TEACHER,
         {
@@ -38,18 +38,18 @@ export default class UserController {
 
       res.status(201).send({
         name: user.name,
-        employeeCode: user.employeeCode,
+        email: user.email,
         authorization: token,
       });
     }
   }
 
   async signIn(req, res) {
-    const result = await this.userRepo.findByEmployeeCode(
-      req.body.employeeCode
+    const result = await this.userRepo.findByEmail(
+      req.body.email
     );
     if (!result) {
-      return res.status(404).send("Employee Already Exist ");
+      return res.status(404).send("User already exists.");
     }
     // create token
     else {
@@ -70,7 +70,7 @@ export default class UserController {
 
         return res.status(200).send({
           name: result.name,
-          employeeCode: result.employeeCode,
+          email: result.email,
           authorization: token,
         });
       } else {
