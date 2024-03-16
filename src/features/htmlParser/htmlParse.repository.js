@@ -10,7 +10,6 @@ class htmlParserGFG {
       const db =await getDB();
       const collection =await db.collection(this.collection);
       let result = await collection.insertOne({ data:data.data,userView:data.userView });
-      // console.log(result.insertedId.toString());
       return result.insertedId.toString();
     } catch (err) {
       console.log(err);
@@ -19,13 +18,10 @@ class htmlParserGFG {
   }
   async get(idd) {
     try {
-      // console.log(idd);
       const db=await getDB();
-      // const data=.findOne({_id:new ObjectId(idd)});
       
       const collection =await db.collection(this.collection);
       const data = await collection.findOne({_id:new ObjectId(idd)});
-      // console.log(data);
       return data;
     } catch (err) {
       console.log(err);
