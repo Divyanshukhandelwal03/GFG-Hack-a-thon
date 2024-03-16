@@ -1002,3 +1002,112 @@
 {"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
 {"level":"info","message":"/api/data/htmlCode/65f51c91d628bdd0ff01e37f-{}","service":"request-logging"}
 {"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryInput/-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryInput/-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{\"query_text\":\"1.the div should have class=non-called and id=hello and child with p element id=child_of_div and with child h1 element\\r\\n2.the section with id =welcome-section and class=helloi\",\"query_in_string\":\"$div&.non-called&#hello%p&#child_of_div%h1\\r\\n$section&#welcome-section&.helloi\"}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryInput/-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f04d0427f447e0220b9fea-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f51c91d628bdd0ff01e37f-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{\"query_text\":\"sdfsdgbfh\",\"query_in_string\":\"sdfgfh\"}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{\"query_text\":\"sdfsdgbfh\",\"query_in_string\":\"sdfgfh\"}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f52f00c2f5fe0d52cc8b99-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{\"query_text\":\"sc,nsfdvnv\",\"query_in_string\":\"sdfgfhxca,nckadsncasnlckas\"}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f52f13c2f5fe0d52cc8b9a-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/queryData/-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{\"query_text\":\"1.the div should have class=non-called and id=hello and child with p element id=child_of_div and with child h1 element\\r\\n2.the section with id =welcome-section and class=helloi\",\"query_in_string\":\"$\\\"div&.non-called&#hello%p&#child_of_div%h1$section&#welcome-section&.helloi\"}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f52ff9220257ea6c3cd0dd-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f52ff9220257ea6c3cd0dd-{\"desc\":\"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n<head>\\r\\n    <meta charset=\\\"UTF-8\\\">\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n    <title>Document</title>\\r\\n</head>\\r\\n<body>\\r\\n    <div class=\\\"non-called\\\" id=\\\"hello\\\">\\r\\n      <p id=\\\"child_of_div\\\">\\r\\n        <h1>hello my name</h1>\\r\\n      </p>\\r\\n      <div id=\\\"child_div\\\">\\r\\n        <h1>hello my name</h1>\\r\\n      </div>\\r\\n    </div>\\r\\n    <section id=\\\"welcome-section\\\" class=\\\"helloi\\\">\\r\\n      <h1>jfdsj</h1>\\r\\n    </section>\\r\\n     <section id=\\\"projects\\\">\\r\\n      <h1>jfdsj</h1>\\r\\n    </section>\\r\\n      <div class=\\\"non-called\\\" id=\\\"h\\\">\\r\\n      <p id=\\\"child_of_div\\\">\\r\\n        <h1>hello my name</h1>\\r\\n      </p>\\r\\n    </div>\\r\\n</body>\\r\\n</html>\"}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f52ff9220257ea6c3cd0dd-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{\"query_text\":\"1.the div should have class=non-called and id=hello and child with p element id=child_of_div and with child h1 element\\r\\n2.the section with id =welcome-section and class=helloi\",\"query_in_string\":\"$\\\"div&.non-called&#hello%p&#child_of_div%h1$section&#welcome-section&.helloi\"}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f53091220257ea6c3cd0de-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f53091220257ea6c3cd0de-{\"desc\":\"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n<head>\\r\\n    <meta charset=\\\"UTF-8\\\">\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n    <title>Document</title>\\r\\n</head>\\r\\n<body>\\r\\n    <div class=\\\"non-called\\\" id=\\\"hello\\\">\\r\\n      <p id=\\\"child_of_div\\\">\\r\\n        <h1>hello my name</h1>\\r\\n      </p>\\r\\n      <div id=\\\"child_div\\\">\\r\\n        <h1>hello my name</h1>\\r\\n      </div>\\r\\n    </div>\\r\\n    <section id=\\\"welcome-section\\\" class=\\\"helloi\\\">\\r\\n      <h1>jfdsj</h1>\\r\\n    </section>\\r\\n     <section id=\\\"projects\\\">\\r\\n      <h1>jfdsj</h1>\\r\\n    </section>\\r\\n      <div class=\\\"non-called\\\" id=\\\"h\\\">\\r\\n      <p id=\\\"child_of_div\\\">\\r\\n        <h1>hello my name</h1>\\r\\n      </p>\\r\\n    </div>\\r\\n</body>\\r\\n</html>\"}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f53091220257ea6c3cd0de-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{\"query_text\":\"1.the div should have class=non-called and id=hello and child with p element id=child_of_div and with child h1 element\\r\\n2.the section with id =welcome-section and class=helloi\",\"query_in_string\":\"$div&.non-called&#hello%p&#child_of_div%h1$section&#welcome-section&.helloi\"}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f530b5220257ea6c3cd0df-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f530b5220257ea6c3cd0df-{\"desc\":\"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n<head>\\r\\n    <meta charset=\\\"UTF-8\\\">\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n    <title>Document</title>\\r\\n</head>\\r\\n<body>\\r\\n    <div class=\\\"non-called\\\" id=\\\"hello\\\">\\r\\n      <p id=\\\"child_of_div\\\">\\r\\n        <h1>hello my name</h1>\\r\\n      </p>\\r\\n      <div id=\\\"child_div\\\">\\r\\n        <h1>hello my name</h1>\\r\\n      </div>\\r\\n    </div>\\r\\n    <section id=\\\"welcome-section\\\" class=\\\"helloi\\\">\\r\\n      <h1>jfdsj</h1>\\r\\n    </section>\\r\\n     <section id=\\\"projects\\\">\\r\\n      <h1>jfdsj</h1>\\r\\n    </section>\\r\\n      <div class=\\\"non-called\\\" id=\\\"h\\\">\\r\\n      <p id=\\\"child_of_div\\\">\\r\\n        <h1>hello my name</h1>\\r\\n      </p>\\r\\n    </div>\\r\\n</body>\\r\\n</html>\"}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f530b5220257ea6c3cd0df-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryInput/-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{\"query_text\":\"1.the div should have class=non-called and id=hello and child with p element id=child_of_div and with child h1 element\\r\\n2.the section with id =welcome-section and class=helloi\",\"query_in_string\":\"$div&.non-called&#hello%p&#child_of_div%h1$section&#welcome-section&.helloi\"}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f53164b8ec9a1a99ac6439-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f53164b8ec9a1a99ac6439-{\"desc\":\"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n<head>\\r\\n    <meta charset=\\\"UTF-8\\\">\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n    <title>Document</title>\\r\\n</head>\\r\\n<body>\\r\\n    <div class=\\\"non-called\\\" id=\\\"hello\\\">\\r\\n      <p id=\\\"child_of_div\\\">\\r\\n        <h1>hello my name</h1>\\r\\n      </p>\\r\\n      <div id=\\\"child_div\\\">\\r\\n        <h1>hello my name</h1>\\r\\n      </div>\\r\\n    </div>\\r\\n    <section id=\\\"welcome-section\\\" class=\\\"helloi\\\">\\r\\n      <h1>jfdsj</h1>\\r\\n    </section>\\r\\n     <section id=\\\"projects\\\">\\r\\n      <h1>jfdsj</h1>\\r\\n    </section>\\r\\n      <div class=\\\"non-called\\\" id=\\\"h\\\">\\r\\n      <p id=\\\"child_of_div\\\">\\r\\n        <h1>hello my name</h1>\\r\\n      </p>\\r\\n    </div>\\r\\n</body>\\r\\n</html>\"}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f53164b8ec9a1a99ac6439-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f53164b8ec9a1a99ac6439-{\"desc\":\"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n<head>\\r\\n    <meta charset=\\\"UTF-8\\\">\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n    <title>Document</title>\\r\\n</head>\\r\\n<body>\\r\\n    <div class=\\\"non-called\\\" id=\\\"hello\\\">\\r\\n      <p id=\\\"child_of_div\\\">\\r\\n        <h1>hello my name</h1>\\r\\n      </p>\\r\\n      <div id=\\\"child_div\\\">\\r\\n        <h1>hello my name</h1>\\r\\n      </div>\\r\\n    </div>\\r\\n    <section id=\\\"welcome-section\\\" >\\r\\n      <h1>jfdsj</h1>\\r\\n    </section>\\r\\n     <section id=\\\"projects\\\">\\r\\n      <h1>jfdsj</h1>\\r\\n    </section>\\r\\n      <div class=\\\"non-called\\\" id=\\\"h\\\">\\r\\n      <p id=\\\"child_of_div\\\">\\r\\n        <h1>hello my name</h1>\\r\\n      </p>\\r\\n    </div>\\r\\n</body>\\r\\n</html>\"}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryInput/-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{\"query_text\":\"1.the div should have class=non-called and id=hello and child with p element id=child_of_div and with child h1 element\\r\\n2.the section with id =welcome-section and class=helloi\",\"query_in_string\":\"$div&.non-called&#hello%p&#child_of_div%h1$section&#welcome-section&.helloi\"}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f5346c6738f0c49b820cae-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f5346c6738f0c49b820cae-{\"desc\":\"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n<head>\\r\\n    <meta charset=\\\"UTF-8\\\">\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n    <title>Document</title>\\r\\n</head>\\r\\n<body>\\r\\n    <div class=\\\"non-called\\\" id=\\\"hello\\\">\\r\\n      <p id=\\\"child_of_div\\\">\\r\\n        <h1>hello my name</h1>\\r\\n      </p>\\r\\n      <div id=\\\"child_div\\\">\\r\\n        <h1>hello my name</h1>\\r\\n      </div>\\r\\n    </div>\\r\\n    <section id=\\\"welcome-section\\\" class=\\\"helloi\\\">\\r\\n      <h1>jfdsj</h1>\\r\\n    </section>\\r\\n     <section id=\\\"projects\\\">\\r\\n      <h1>jfdsj</h1>\\r\\n    </section>\\r\\n      <div class=\\\"non-called\\\" id=\\\"h\\\">\\r\\n      <p id=\\\"child_of_div\\\">\\r\\n        <h1>hello my name</h1>\\r\\n      </p>\\r\\n    </div>\\r\\n</body>\\r\\n</html>\"}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f5346c6738f0c49b820cae-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f5346c6738f0c49b820cae-{\"desc\":\"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n<head>\\r\\n    <meta charset=\\\"UTF-8\\\">\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n    <title>Document</title>\\r\\n</head>\\r\\n<body>\\r\\n    <div class=\\\"non-called\\\" id=\\\"hello\\\">\\r\\n      <p id=\\\"child_of_div\\\">\\r\\n        <h1>hello my name</h1>\\r\\n      </p>\\r\\n      <div id=\\\"child_div\\\">\\r\\n        <h1>hello my name</h1>\\r\\n      </div>\\r\\n    </div>\\r\\n    <section id=\\\"welcome-section\\\">\\r\\n      <h1>jfdsj</h1>\\r\\n    </section>\\r\\n     <section id=\\\"projects\\\">\\r\\n      <h1>jfdsj</h1>\\r\\n    </section>\\r\\n      <div class=\\\"non-called\\\" id=\\\"h\\\">\\r\\n      <p id=\\\"child_of_div\\\">\\r\\n        <h1>hello my name</h1>\\r\\n      </p>\\r\\n    </div>\\r\\n</body>\\r\\n</html>\"}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/htmlCode/65f5346c6738f0c49b820cae-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/api/data/queryData/-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico-{}","service":"request-logging"}
