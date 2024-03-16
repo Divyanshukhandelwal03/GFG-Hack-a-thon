@@ -9,8 +9,9 @@ class htmlParserGFG {
     try {
       const db = getDB();
       const collection = db.collection(this.collection);
-      await collection.insertOne({ data:data.data,userView:data.userView });
-      return { message: "success" };
+      let result = await collection.insertOne({ data:data.data,userView:data.userView });
+      // console.log(result.insertedId.toString());
+      return result.insertedId.toString();
     } catch (err) {
       console.log(err);
       // throw new ApplicationError("Something went wrong with database" , 500);

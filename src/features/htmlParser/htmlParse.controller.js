@@ -59,7 +59,7 @@ export default class HtmlParseController {
   let data = parseStrToObj(query_string);
   try{
     const output = (await this.htmlParserGfg.add({data,userView}));
-    res.status(201).send(output);
+    res.render("form_after_query",{output});
    }catch(err)
    {
     //  console.log('data recieved in query can not be added in the database');
@@ -69,7 +69,7 @@ export default class HtmlParseController {
   async developQueryCode(req,res){
      try{
       const output = await this.htmlParserGfg.add(req.body.data);
-      res.status(201).send(output);
+      res.render("form_after_query",{output});
      }catch(err)
      {
       //  console.log('data recieved in query can not be added in the database');
