@@ -7,8 +7,8 @@ class htmlParserGFG {
   }
   async add(data) {
     try {
-      const db = getDB();
-      const collection = db.collection(this.collection);
+      const db =await getDB();
+      const collection =await db.collection(this.collection);
       let result = await collection.insertOne({ data:data.data,userView:data.userView });
       // console.log(result.insertedId.toString());
       return result.insertedId.toString();
