@@ -7,6 +7,7 @@ import { JSDOM } from "jsdom";
 //repository
 import htmlParserGFG from "./htmlParse.repository.js";
 import { ObjectId } from "mongodb";
+import { getDB } from "../../config/mongodb.js";
 export default class HtmlParseController {
   constructor() {
     this.htmlParserGfg = new htmlParserGFG();
@@ -16,13 +17,18 @@ export default class HtmlParseController {
     return res.render("input_screen");
   }
   async displayForm(req, res) {
-    const queries = await this.htmlParserGfg.get(req.params.id);
+    // console.log(req.params.id)
+    let id=req.params.id;
+  
+    const queries = await this.htmlParserGfg.get(id);
     if(queries)
     {
       return res.render("form_input",{id:req.params.id,query:queries.userView});
     }
+    else{
     
       res.status(500).send("invalid user");
+    }
     
   }
   async accessHtmlCode(req,res){

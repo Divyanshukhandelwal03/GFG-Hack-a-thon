@@ -17,11 +17,15 @@ class htmlParserGFG {
       // throw new ApplicationError("Something went wrong with database" , 500);
     }
   }
-  async get(id) {
+  async get(idd) {
     try {
-      const db =await getDB();
+      // console.log(idd);
+      const db=await getDB();
+      // const data=.findOne({_id:new ObjectId(idd)});
+      
       const collection =await db.collection(this.collection);
-      const data = await collection.findOne({_id:new ObjectId(id)});
+      const data = await collection.findOne({_id:new ObjectId(idd)});
+      // console.log(data);
       return data;
     } catch (err) {
       console.log(err);

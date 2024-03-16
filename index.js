@@ -1,12 +1,10 @@
 import express from "express";
 import dotenv from "dotenv";
-import swagger from "swagger-ui-express";
 import userRoute from "./src/features/user/user.routes.js";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import bodyParser from "body-parser";
 dotenv.config();
-import apiDocs from "./swagger_ver3.0.json" assert { type: "json" };
 import { connectToMongoDB } from "./src/config/mongodb.js";
 import loggerMiddleware from "./src/middleware/logger.middleware.js";
 import jwtAuthProf from "./src/middleware/jwt.middleware.js";
@@ -38,7 +36,6 @@ app.set("view engine", "ejs");
 
 app.use("/api/data/", HtmlParseRoute);
 
-app.use("/api-docs", swagger.serve, swagger.setup(apiDocs));
 
 app.use((req, res) => {
   res.send("API not found.");
